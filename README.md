@@ -1,6 +1,6 @@
 # ReactDailyMusic
-React-Native 开发点滴学习
 React学习网站:
+
 官方网站API：
 https://facebook.github.io/react-native/docs/getting-started.html
 1)React Native官方Demo:
