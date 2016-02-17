@@ -1,5 +1,3 @@
-//单个商品坑位
-//doc组件生命周期： http://reactjs.cn/react/docs/working-with-the-browser.html#component-lifecycle
 
 'use strict';
 

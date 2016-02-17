@@ -9,7 +9,7 @@ var {
   Image,
   View,
 } = React;
-var Player = require('./MusicPlayer');
+var CustomPlayer = require('./CustomPlayer');
 var styles = StyleSheet.create({
     container: {
     	flex : 1,
@@ -78,12 +78,11 @@ module.exports = React.createClass({
   handleUrl(url,fileName) {
       this.props.navigator.push({
            title: fileName,
-           component: Player,
+           component: CustomPlayer,
            backButtonTitle: '返回',
            passProps: {
              url: url,
-             title:fileName,
-             player:Player,
+             title:fileName
            }
          });
   },
